@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  margin: 0px;
+  padding: 0px;
+}
+.head {
+  background-color: rgb(38, 38, 38);
+  color: white;
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.end button {
+  background-color: rgb(100, 158, 14);
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: end;
+}
+h3 span {
+  font-weight: bold;
+  color: rgb(100, 158, 14);
+}
+h3 {
+  margin: 6px;
+  padding: 10px;
+}
+img {
+  margin: 5px 0px 5px 5px;
+}

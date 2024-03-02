@@ -1,0 +1,33 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+.nav {
+  position: sticky;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.nav a {
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.gradiant__bg {
+  background-color: #01112b;
+  color: white;
+}
+.gradiant__bg button {
+  background-color: #f25a23;
+  color: white;
+}
