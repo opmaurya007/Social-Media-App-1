@@ -1,24 +1,12 @@
 import React from "react";
 import "./title.css";
-const Card = ({ title, content, imageUrl }) => (
-  <>
-    <div className="title">
-      <div className="content-container">
-        <h2>{title}</h2>
-        <p>{content}</p>
-        <button>Get Started</button>
-      </div>
-      <div className="image-container">
-        <img src={imageUrl} alt={title} />
-      </div>
-    </div>
-  </>
-);
+// import Card from "./Card";
+// import data from "./CardData";
 
-const title = ({ cardsData }) => {
+const title = () => {
   return (
     <>
-      <div className="how-work">
+      <div className="title-heading">
         <h2>How does it work?</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -27,14 +15,7 @@ const title = ({ cardsData }) => {
           industry.
         </p>
       </div>
-      {cardsData.map((card, index) => (
-        <Card
-          key={index}
-          title={card.title}
-          content={card.content}
-          imageUrl={card.imageUrl}
-        />
-      ))}
+      {/* <Card cardsData={data} /> */}
     </>
   );
 };

@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.vendor {
+  background-color: #f5f6f7;
+  color: black;
+  display: flex;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  /* height: 70%; */
+}
+
+.vendor-r {
+  margin: 80px 50px 10px 100px;
+  /* flex: 1;  */
+  padding: 10px;
+}
+.vendor-r h1 {
+  font-size: 50px;
+  font-weight: bold;
+  /* padding: 50px; */
+}
+
+.image-container {
+  /* margin: 100px 50px 50px 100px; */
+  margin-top: 50px;
+  margin-right: -10px;
+
+  flex: 0 0 50%; /* Take up 50% of the available space, don't grow, don't shrink */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+img {
+  /* margin-top: 20px; */
+  max-width: 100%; /* Make sure the image doesn't overflow its container */
+  height: auto;
+  display: block; /* Remove extra space under the image */
+}
+.para-vendor p {
+  color: rgb(77, 75, 75);
+  padding: 10px;
+  /* margin-bottom: -20px; */
+}
+.vendor-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px;
+  margin: 5px;
+}

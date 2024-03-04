@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact {
+  color: black;
+  display: flex;
+}
+/* margin: 200px 50px 50px 100px; */
+
+.contact-container {
+  flex: 1; /* Take up all available space in the flex container */
+  padding: 10px;
+  margin: 150px 50px 50px 100px;
+}
+
+.contact-container h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.contact-c {
+  text-align: center;
+}
+.contact-c h1 {
+  font-weight: bold;
+}
+.cant a {
+  font-size: large;
+  color: black;
+}
+.cant span {
+  color: #f25a23;
+  font-weight: 300;
+  font-size: large;
+}
+.cant hr {
+  width: 15%;
+  color: #f25a23;
+}
+.form {
+  flex: 0 0 40%; /* Take up 50% of the available space, don't grow, don't shrink */
+  padding: 30px 40px;
+  background-color: white;
+
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(1, 1, 1, 0.1);
+  border: none;
+  margin: 100px;
+  border-radius: 10px;
+  display: block; /* Remove extra space under the image */
+  max-width: 100%; /* Make sure the image doesn't overflow its container */
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  /* border-color: rgb(148, 143, 143); */
+  padding: 5px;
+  margin: 5px;
+}
+.para p {
+  color: #6d676e;
+  margin: 5px;
+  padding: 5px;
+  justify-content: flex-start;
+}
+
+.form-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-2 {
+  align-items: center;
+  text-align: center;
+}
+.cont-submit button {
+  margin-left: 150px;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #f25a23;
+  color: white;
+  padding: 6px 25px;
+}
+
+.captcha {
+  margin: 15px 20px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App{
+  
+}
+
+form input{
+  height: 40px;
+  flex-basis: 80%;
+}
+form button{
+  flex-basis: 20%;
+}
+.outerDiv{
+  width: 1170px;
+  margin: auto;
+}
+.outerDiv ul{
+  margin: 0px;
+  margin-top: 50px;
+  padding: 0px;
+  list-style: none;
+}
+.outerDiv li{
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  position:relative;
+  text-align: left;
+  background-color:black;
+}
+.outerDiv ul li span{
+  right: 20px;
+  cursor: pointer;
+
+}

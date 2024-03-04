@@ -9,6 +9,7 @@ export {default as  Navbar} from "./navbar/Navbar";
 export {default as  Newsletter} from "./newsletter/Newsletter";
 export {default as  Plan} from "./plan/Plan";
 export {default as  Review} from "./review/Review";
-export {default as  Store}from "./store/Store";
+// export {default as  Store}from "./store/Store";
 export {default as  Title}from "./title/Title";
 export {default as  Vendor} from "./vender/Vendor";
+// export {default as  Card} from "./card/Card";

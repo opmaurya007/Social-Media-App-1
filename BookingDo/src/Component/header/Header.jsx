@@ -4,11 +4,9 @@ import "./header.css";
 const header = () => {
   return (
     <>
-      <div className="head">
+      <div className="head1">
         <div className="start">
-          <span>
-            <img src="./images/logo.png" alt="" width={20} height={20} />
-          </span>
+          <img src="./images/logo.png" alt="" width={20} />
           <h3>
             envato<span>market</span>
           </h3>

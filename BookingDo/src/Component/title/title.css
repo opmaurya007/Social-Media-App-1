@@ -1,46 +1,60 @@
 .title {
   display: flex;
-}
-.content-container,
-.how-work {
-  flex: 1; /* Take up all available space in the flex container */
   padding: 20px;
+  margin: 40px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.how-work,.title h2 {
-  text-align: center;
-  padding: 30px;
-  font-family:Arial, Helvetica, sans-serif ;
-  font-size: xx-large;
-  font-weight: bold;
-
+.title-heading {
+  flex: 1; /* Take up all available space in the flex container */
+  /* padding: 20px; */
+  margin-left: 100px;
+  margin-right: 100px;
 }
-button {
-  background-color: #F25A23;
+
+.title-heading h2 {
+  color: black;
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.title-heading p {
+  text-align: center;
+}
+.title-r h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.title-r button {
+  background-color: #f25a23;
   color: white;
   border-radius: 8px;
   padding: 10px 20px;
-  margin: 10px 20px 10px 30px;
-align-items: center;
-border-style: none;
+  margin: 20px;
+  align-items: center;
+  border-style: none;
+  border-radius: 8px;
 }
-.title p,p {
+.title p {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: start;
   padding: 20px;
   font-size: large;
   color: #6c756c;
 }
 
-.image-container {
+.title-image {
   flex: 0 0 50%; /* Take up 50% of the available space, don't grow, don't shrink */
-  padding: 20px;
+  padding: 80px;
+  margin-top: -120px;
 }
 
 img {
-  max-width: 80%; /* Make sure the image doesn't overflow its container */
+  max-width: 60%; /* Make sure the image doesn't overflow its container */
   height: auto;
   display: block; /* Remove extra space under the image */
 }

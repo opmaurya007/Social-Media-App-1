@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  background-color: #01112b;
+  color: white;
+}
+.footer-content {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Three columns, adjust as needed */
+  gap: 20px; /* Adjust the gap between columns */
+  /* margin: 20px; */
+  padding: 20px;
+}
+/* .footer-item {
+  padding: 10px;
+  border: 1px solid #fff;
+  text-align: center;
+} */
+/* .footer-c {
+  text-decoration: none;
+  color: white;
+  display: flex;
+} */
+.footer-r {
+  text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  /* margin: px 15px; */
+  display: flex;
+  flex-direction: column;
+}
+.footer-l {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+hr {
+  color: white;
+}
+/* .footer p {
+  color: white;
+} */
+.footer-r a {
+  color: white;
+  /* padding: 10px; */
+  /* margin: 10px; */
+
+  /* flex-direction: start; */
+  /* flex-direction: column; */
+}
+/* .footer-l span {
+  margin-bottom: 10px;
+  padding: 5px;
+} */
+
+.footer-r h4 {
+  font-weight: 400;
+  font-size: 25px;
+}

@@ -1,0 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+:root{
+  --coll:#ffc20e;
+}
+body{
+  background-color: black;
+  color: white;
+}
