@@ -3,6 +3,7 @@ import "./App.css";
 // import "./Component/contactUs/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import storeData from "./Component/card/CardData.jsx";
+// import data from "./Component/card/CardData";
 
 import {
   Blog,
@@ -10,16 +11,37 @@ import {
   Feature,
   Footer,
   Header,
-  Main,
+  Hero,
   Navbar,
   Newsletter,
   Plan,
   Review,
-  // Store,
+  Store,
   Title,
   Vendor,
   // Card,
 } from "./Component";
+
+const data = [
+  {
+    title: "Create Your Account",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry dummy text of the printing and typesetting industry dummy text of the printing and typesetting industry.",
+    image: "./images/account.png",
+  },
+  {
+    title: "Add Your Services",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry dummy text of the printing and typesetting industry dummy text of the printing and typesetting industry.",
+    image: "./images/service.png",
+  },
+  {
+    title: "Add Your Services",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry dummy text of the printing and typesetting industry dummy text of the printing and typesetting industry.",
+    image: "./images/start4.png",
+  },
+];
 
 function App() {
   return (
@@ -28,23 +50,17 @@ function App() {
         <Header />
         <div className="gradiant__bg">
           <Navbar />
-          <Main />
+          <Hero />
         </div>
-        <Title />
-
-        {/* <Feature feature1={featureData} /> */}
-
-        {/* <Store store1={storeData} /> */}
-
-        {/* <Blog /> */}
-
-        {/* <Plan /> */}
-        {/* <Review /> */}
-
+        <Title cardsData={data} />
+        <Feature />
+        <Plan />
+        <Store />
+        <Review />
+        <Blog />
         <Vendor />
         <Newsletter />
         <ContactUs />
-        {/* <form /> */}
         <Footer />
       </div>
     </>

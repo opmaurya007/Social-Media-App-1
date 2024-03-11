@@ -94,3 +94,22 @@ textarea {
   align-items: center;
   text-align: center;
 }
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+}
+
+.social-icon img {
+  width: 40px;
+  background-color: #f25a23;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
+}
+.row-img {
+  width: 20%;
+}

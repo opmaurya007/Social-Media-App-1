@@ -1,22 +1,9 @@
 import React from "react";
 import "./feature.css";
-import Icon from "./Icon.jsx";
+import FeatureCard from "../card/FeatureCard.jsx";
+import FeatureData from "../data/FeatureData.jsx";
 
-const Card = ({ iconName, title, description }) => (
-  <>
-    <div className="feature-r">
-      <div className="feature-box">
-        <div className="card-icon">
-          <Icon name={iconName} />
-        </div>
-        <h2 className="card-title">{title}</h2>
-        <p className="card-description">{description}</p>
-      </div>
-    </div>
-  </>
-);
-
-const feature = ({ feature1 }) => {
+const feature = () => {
   return (
     <>
       <div className="feature">
@@ -30,13 +17,14 @@ const feature = ({ feature1 }) => {
               typesetting industry.
             </p>
           </div>
-          <div class="card-group text-center">
-            {feature1.map((card, index) => (
-              <Card
+          <div class="card-group ">
+            {FeatureData.map((card, index) => (
+              <FeatureCard
                 key={index}
-                icon={card.iconName}
+                image={card.image}
                 title={card.title}
                 description={card.description}
+                color={card.color}
               />
             ))}
           </div>

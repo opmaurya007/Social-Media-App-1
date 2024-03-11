@@ -1,24 +1,24 @@
-// import React from "react";
+import React from "react";
 
-// const Card = (props) => {
-//   return (
-//     <>
-//       {props.cardsData.map((card, index) => (
-//         <div className="title" key={index}>
-//           <div className="title-r">
-//             <h2>{card.title}</h2>
-//             <p>{card.content}</p>
-//             <button>Get Started</button>
-//           </div>
-//           <div className="title-image">
-//             <img src={card.image} alt={title} />
-//           </div>
-//         </div>
-//       ))}
-//       ;
-//     </>
-//   );
-// };
+const Card = (props) => {
+  return (
+    <>
+      <div className="title">
+        <div className="title-r">
+          <h2>{props.title}</h2>
+          <p>{props.content}</p>
+          <button>Get Started</button>
+        </div>
+        <div className="title-image" id="i1">
+          <img src={props.image} alt={props.title} />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Card;
+
 // // const StoreCard = ({ image, title, content }) => (
 // //   <>
 // //     <div className="store-card">
@@ -28,5 +28,3 @@
 // //     <div className="store-desc">{content}</div>
 // //   </>
 // // );
-
-// export default { Card };

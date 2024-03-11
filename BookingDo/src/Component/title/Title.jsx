@@ -1,7 +1,7 @@
 import React from "react";
 import "./title.css";
-// import Card from "./Card";
-// import data from "./CardData";
+import Card from "../card/Card.jsx";
+import cardsData from "../data/CardData.jsx";
 
 const title = () => {
   return (
@@ -15,7 +15,14 @@ const title = () => {
           industry.
         </p>
       </div>
-      {/* <Card cardsData={data} /> */}
+      {cardsData.map((card, index) => (
+        <Card
+          key={index}
+          image={card.image}
+          title={card.title}
+          content={card.content}
+        />
+      ))}
     </>
   );
 };

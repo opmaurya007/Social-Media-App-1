@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  margin: 40px 0px 40px 0px;
+  background-color: #01112b;
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.plan-container {
+  text-align: center;
+  margin: 50px 100px 50px 100px;
+  flex: 1; /* Take up all available space in the flex container */
+  padding: 20px;
+}
+.plan-container h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.plan-para p {
+  margin: 20px;
+  font-size: large;
+  font-weight: 400;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.plan-btn button {
+  border-radius: 8px;
+  padding: 10px 18px;
+}

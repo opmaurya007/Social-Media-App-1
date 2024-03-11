@@ -7,39 +7,55 @@
   background-color: #f5f6f7;
 }
 .feature-r {
-  margin-left: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .feature-head h2 {
   text-align: center;
-  padding: 30px;
+  padding-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
+  font-size: 60px;
   font-weight: bold;
+  color: rgb(21, 20, 20);
+}
+.feature-head p {
+  padding: 10px;
+  text-align: center;
 }
 
 /* src/Card.css */
 .feature-box {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
+  width: 29.5%;
+  display: flexbox;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px; */
+  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  box-shadow: #555;
+  box-shadow: #2e2c2c;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 20px;
+  padding: 15px;
   margin: 20px;
+  background-color: lightblue;
+  /* height: fit-content; */
 }
 
-.card-icon {
+.card-image {
   font-size: 36px;
   margin-bottom: 16px;
+  align-items: center;
+  /* padding: 8px; */
+  margin-left: 90px;
 }
 
 .card-title {
   font-size: 18px;
-  margin-bottom: 8px;
+  font-weight: bold;
+  margin: 8px;
+  color: rgb(47, 45, 45);
 }
 
 .card-description {
